@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "LinearSearch::Iterative",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Search - LinearSearchIterative\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "LinearSearch::Recursive",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Search - LinearSearchRecursive\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "LinearSearch::TwoPointers",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Search - LinearSearchTwoPointers\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "BinarySearch::Iterative",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Search - BinarySearchIterative\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "BinarySearch::BinarySearchRecursive",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Search - BinarySearchRecursive\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "TwoPointers::TwoSum",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"TwoPointers::TwoSum\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 2
+    }
+  ]
+}
